@@ -1,6 +1,6 @@
-import {joinPoint, canJoin, findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "prosemirror-transform"
-import {Slice, Fragment} from "prosemirror-model"
-import {Selection, TextSelection, NodeSelection, AllSelection} from "prosemirror-state"
+import {joinPoint, canJoin, findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "/prosemirror/dist/prosemirror-transform.es.js"
+import {Slice, Fragment} from "/prosemirror/dist/prosemirror-model.es.js"
+import {Selection, TextSelection, NodeSelection, AllSelection} from "/prosemirror/dist/prosemirror-state.es.js"
 
 // :: (EditorState, ?(tr: Transaction)) → bool
 // Delete the selection, if there is one.
